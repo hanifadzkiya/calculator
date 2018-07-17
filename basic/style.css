@@ -1,0 +1,117 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+#calculator {
+  box-sizing: border-box;
+  width : 400px;
+  margin : 100px auto 0 auto;
+}
+
+#numbers {
+  width : 300px;
+  float : left;
+  font-size: 2em;
+}
+
+#operators {
+  width : 100px;
+  float : right;
+  border-radius: 30px;
+  font-size: 2em;
+}
+
+#clear {
+  clear: left;
+  width: 300px;
+  font-size: 2em;
+}
+
+#displayed {
+  font-size: 25px;
+  float: right;
+  padding-right: 25px;
+  position: relative;
+  bottom: 30px;
+}
+
+#display {
+  text-align: right;
+  border-radius: 16px 16px 0px 0px;
+  background-color: rgba(204, 204, 204, 0.47);
+  width: 400px;
+  height: 100px;
+}
+
+.history {
+  font-size: 25px;
+  position : relative;
+  right: 25px;
+  top: 5px;
+}
+
+.now {
+  font-size: 40px;
+  position : relative;
+  right: 25px;
+  bottom: 30px;
+}
+
+div[data-number] {
+  padding-top: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100px;
+  height: 83px;
+  background-color: rgba(255, 255, 255, 0.91);
+  float: right;
+  border: 1px solid rgba(204, 204, 204, 0.47);
+}
+
+div[data-number = "0"] {
+  float : left;
+  width : 200px;
+}
+
+div[data-operator] {
+  width: 100px;
+  height: 83px;
+  box-sizing: border-box;
+  text-align: center;
+  float: right;
+  padding-top: 20px;
+  background-color: rgba(255, 121, 25, 0.94);
+  border: 1px solid rgba(204, 204, 204, 0.47);
+}
+
+div[data-decimal] {
+  width: 100px;
+  text-align: center;
+  border: 1px solid rgba(204, 204, 204, 0.47);
+  height : 83px;
+  float: left;
+  box-sizing: border-box;
+}
+
+div[data-clear] {
+  padding-top: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 0px 0px 0px 16px;
+  background-color: rgba(255, 255, 255, 0.91);
+  border: 1px solid rgba(204, 204, 204, 0.47);
+  height: 83px;
+}
+
+div[data-operator="equal"] {
+  border-radius: 0px 0px 16px 0px;
+}
+
+.rotate45 {
+  display: inline-block;
+  -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Safari 3-8 */
+    transform: rotate(45deg);
+}

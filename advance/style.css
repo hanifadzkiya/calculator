@@ -1,0 +1,42 @@
+.form-group {
+	margin : auto;
+	width: 400px;
+}
+
+.form-control {
+	width: 400px;
+}
+
+.form {
+	margin : auto;
+}
+
+.form-control {
+	margin-bottom: 30px;
+}
+
+.btn {
+	display: inline-block;
+	margin: auto;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.result {
+	position: relative;
+	right : 15px;
+	font-size: 24px;
+	height: 40px; 
+}
+
+.container {
+	margin-top: 60px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.choiceButton {
+  text-align: center;
+}
